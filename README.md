@@ -1,6 +1,9 @@
 # ElmKotlin
 [Elm architecture](https://guide.elm-lang.org/) implementation in Kotlin.
 
+Model: kotlin data class  
+Effect: RxKotlin
+
 Program flow:
 1. AppModel -> local business logic -> LocalModel -> UI
 2. UI -> local business logic -> LocalModel -> UI
